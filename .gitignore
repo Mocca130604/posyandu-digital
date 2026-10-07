@@ -1,0 +1,59 @@
+# Laravel & PHP Dependencies
+/vendor/
+composer.phar
+
+# Node & Frontend Dependencies
+/node_modules/
+/public/hot
+
+# Environment Configuration
+.env
+.env.backup
+.env.production
+.env.*.local
+
+# Storage & Temporary Files
+/storage/*.key
+/storage/app/public/*
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+!/storage/framework/.gitignore
+!/storage/logs/.gitignore
+/public/storage
+
+# Database Runtime
+database/database.sqlite
+database/database.sqlite-journal
+database/database.sqlite-shm
+database/database.sqlite-wal
+
+# Pastikan Snapshot Cadangan Data Tetap Ter-track di Git untuk Migrasi Server
+!database/backup/
+!database/backup/*
+
+# Testing & Caches
+.phpunit.result.cache
+.phpunit.cache/
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
